@@ -19,6 +19,7 @@ import { PAGES_ROUTES } from './pages.routes';
 //Temporal
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { GraficadonaComponent } from '../components/graficadona/graficadona.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 @NgModule({
     declarations: [
@@ -27,7 +28,8 @@ import { GraficadonaComponent } from '../components/graficadona/graficadona.comp
         Graficas1Component,
         ProgressComponent, 
         IncrementadorComponent,
-        GraficadonaComponent
+        GraficadonaComponent,
+        AccountSettingsComponent
     ],
     exports: [
         PagesComponent,
