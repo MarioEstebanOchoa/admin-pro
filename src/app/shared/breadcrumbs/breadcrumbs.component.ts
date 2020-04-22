@@ -25,7 +25,7 @@ export class BreadcrumbsComponent implements OnInit {
         this.title.setTitle(this.titulo);
 
         const metaTag: MetaDefinition = {
-          name: 'desciption',
+          name: 'description',
           content: this.titulo
         }
 
